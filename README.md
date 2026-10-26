@@ -4,6 +4,8 @@ An ASCII/Unicode diagram editor for Linux that opens, edits and saves `.monopic`
 format of [Monodraw](https://monodraw.helftone.com/) for macOS. Draw boxes, connectors, text, FIGlet
 banners and free-hand art on a character grid; export as plain text, PNG or SVG.
 
+![The solodraw editor: a diagram with a FIGlet title, connected boxes and the inspector](docs/screenshots/editor.png)
+
 > solodraw is an independent project. It is not affiliated with, endorsed by or connected to
 > Helftone or Monodraw. "Monodraw" is a trademark of its owner and is used here only to describe
 > file compatibility. If you're on a Mac, buy Monodraw.
@@ -48,6 +50,14 @@ Ctrl+Shift+G** group/ungroup · **Ctrl+Shift+\\** flatten · **Ctrl+Alt+C / Ctrl
 comment styles / HTML / shell wrappers, PNG, SVG) · **Ctrl+,** preferences ·
 **Ctrl+S / Ctrl+Shift+S / Ctrl+O** · **Ctrl+Z / Ctrl+Shift+Z** · **G** grid · **Ctrl±** / Ctrl+scroll zoom.
 Click selects a top-level shape (a whole card); click again or Shift-click to reach a shape inside a group.
+
+Connectors stay attached and reroute as you move shapes:
+
+![Dragging a box; its connectors reroute live](docs/screenshots/drag-reroute.gif)
+
+The same drawing as an ASCII document and as a Unicode one:
+
+![The showcase diagram exported as ASCII and as Unicode](docs/screenshots/exports.png)
 
 FIGlet banners need `.flf` fonts, which are not bundled. The standard fonts in `/usr/share/figlet`
 (`sudo apt install figlet`) are found automatically; put others in `~/.local/share/solodraw/figlet-fonts/`
