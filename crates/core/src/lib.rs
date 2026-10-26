@@ -2,6 +2,7 @@
 //! written from `SPEC.md`.
 
 pub mod b64;
+pub mod command;
 pub mod edit;
 pub mod ellipse;
 pub mod export;

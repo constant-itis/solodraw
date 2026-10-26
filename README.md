@@ -32,8 +32,9 @@ cargo build --release
 cargo test
 ```
 
-The binaries land in `target/release/` (`solodraw`, `solodraw-gtk`). The CLI and `crates/core` have no
-GTK dependency: `cargo build --release -p solodraw-cli` builds without the GTK headers.
+The binaries land in `target/release/` (`solodraw`, `solodraw-gtk`, `solodraw-mcp`). The CLI, the MCP server and
+`crates/core` have no GTK dependency: `cargo build --release -p solodraw-cli -p solodraw-mcp` builds without the
+GTK headers.
 
 ## Use
 
@@ -62,6 +63,23 @@ The same drawing as an ASCII document and as a Unicode one:
 FIGlet banners need `.flf` fonts, which are not bundled. The standard fonts in `/usr/share/figlet`
 (`sudo apt install figlet`) are found automatically; put others in `~/.local/share/solodraw/figlet-fonts/`
 or point `SOLODRAW_FIGLET_DIR` at a directory.
+
+## Drawing with an AI (MCP)
+
+`solodraw-mcp` is a [Model Context Protocol](https://modelcontextprotocol.io) server over stdio. It lets an
+AI assistant build and edit `.monopic` files without the editor. It can add boxes, text, FIGlet lettering,
+character art, ellipses, diamonds, connectors and free lines; move, restyle, group, duplicate and delete
+shapes; undo; and save. Its `render` tool returns the drawing as text with numbered rows and columns, so the
+assistant can check its own work after each step.
+
+```sh
+# Claude Code
+claude mcp add -s user solodraw -- solodraw-mcp
+# any MCP client: run `solodraw-mcp [--autosave] [file.monopic]` as a stdio server
+```
+
+Shapes can be referred to by id or by the `name` given when they were created. The same commands are
+available to Rust code through `solodraw_core::command::Session::exec`.
 
 ## Status
 
