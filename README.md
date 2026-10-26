@@ -78,8 +78,14 @@ claude mcp add -s user solodraw -- solodraw-mcp
 # any MCP client: run `solodraw-mcp [--autosave] [file.monopic]` as a stdio server
 ```
 
-Shapes can be referred to by id or by the `name` given when they were created. The same commands are
-available to Rust code through `solodraw_core::command::Session::exec`.
+Shapes can be referred to by id or by the `name` given when they were created.
+
+To draw in an open editor window instead, the assistant calls `attach` (`windows` lists the open ones). Each
+`solodraw-gtk` window listens on `$XDG_RUNTIME_DIR/solodraw/<pid>-<n>.sock`. Its changes then appear live as
+ordinary undoable steps, so you can watch, adjust shapes by hand, or press Ctrl+Z. `detach` goes back to the
+headless document. The same commands are available to Rust code through
+`solodraw_core::command::Session::exec`, and to any program over the socket: one JSON object per line,
+`{"cmd": "add_box", "args": {...}}`, answered by `{"ok": true, "result": ...}`.
 
 ## Status
 

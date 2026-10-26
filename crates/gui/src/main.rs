@@ -17,6 +17,7 @@ mod inspector;
 mod prefs;
 mod prefswin;
 mod prelude;
+mod remote;
 mod sidebar;
 mod snippets;
 mod state;

@@ -388,6 +388,7 @@ pub fn build(gapp: &gtk::Application, file: Option<PathBuf>) {
         load_path(&ui, &st, f);
     }
     sync(&ui, &st);
+    crate::remote::listen(&ui, &st);
     window.present();
     area.grab_focus();
 }

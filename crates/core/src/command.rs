@@ -237,7 +237,17 @@ fn line_style(s: &str) -> std::result::Result<i64, String> {
     })
 }
 
+/// Commands that only read the document.
+pub fn is_read_only(name: &str) -> bool {
+    matches!(name, "render" | "list_shapes")
+}
+
 impl Session {
+    /// A session over an existing document (e.g. a copy of the editor's), on `canvas`.
+    pub fn from_doc(doc: Document, canvas: String) -> Session {
+        Session { doc, path: None, canvas, dirty: false, undo: vec![], redo: vec![] }
+    }
+
     pub fn open(path: impl Into<PathBuf>) -> std::result::Result<Session, String> {
         let path = path.into();
         let doc = Document::open(&path).map_err(|e| format!("could not open {}: {e}", path.display()))?;
