@@ -1,0 +1,226 @@
+{
+  "header": {
+    "v": 5
+  },
+  "object_list": [
+    {
+      "object_id": "C84E0398-8765-4655-AAB7-BCB7F4F42296",
+      "type_id": 13,
+      "shapes": [
+        "E3D696FD-12D6-4277-85F0-29F825290693"
+      ]
+    },
+    {
+      "type_id": 3,
+      "object_id": "E3D696FD-12D6-4277-85F0-29F825290693",
+      "shape_type": 8,
+      "cthrough": false,
+      "name_edited": true,
+      "origin": "0,0",
+      "tag": 0,
+      "hidden": false,
+      "locked": false,
+      "surface_pos_enabled": true,
+      "attachable": false,
+      "content_blended": true,
+      "content_color": 4294967296,
+      "shadow_enabled": false,
+      "shadow_offset": "0,0",
+      "shadow_tixel": "",
+      "shadow_intensity": 4,
+      "shadow_color": 4294967296,
+      "subshape_refs": [
+        "BC52662D-670F-4AB6-B40F-51AE264FECBC",
+        "37EBC2EC-5CCA-47B0-AAB4-6BD785B3F570"
+      ],
+      "position_refs": [],
+      "subshape_selection": false,
+      "name": "Browser",
+      "canvas_origin": true
+    },
+    {
+      "type_id": 27,
+      "object_id": "63EE399C-567D-4D00-8520-42F32C18494B",
+      "enabled": true,
+      "sweep": 0,
+      "movement": 0,
+      "alignment": 1,
+      "position": 1,
+      "inside_border": true,
+      "color": 4294967296,
+      "inset_top": 0,
+      "inset_bottom": 0,
+      "inset_left": 0,
+      "inset_right": 0,
+      "text": ""
+    },
+    {
+      "type_id": 18,
+      "object_id": "B123254B-7DA1-4E15-A9E9-45392FB02DEA",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 18,
+      "object_id": "FADCF7F9-B825-4130-B8D7-7099E9F0E622",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 20,
+      "frame_anchor_ref": "45A0259C-24C8-4D15-99A1-02666A04A101",
+      "shape_type": 1,
+      "cthrough": false,
+      "name_edited": true,
+      "origin": "0,0",
+      "tag": 0,
+      "hidden": false,
+      "locked": false,
+      "surface_pos_enabled": true,
+      "attachable": true,
+      "content_blended": true,
+      "content_color": 4294967296,
+      "shadow_enabled": false,
+      "shadow_offset": "0,0",
+      "shadow_tixel": "",
+      "shadow_intensity": 4,
+      "shadow_color": 4294967296,
+      "subshape_refs": [],
+      "background_type": 2,
+      "background_enabled": true,
+      "background_tixel": "",
+      "rectangular_border_enabled": true,
+      "mps_bckg_color": 4294967296,
+      "mps_border_color": 4294967296,
+      "rectangular_border": 4,
+      "frame_offset": "0,0",
+      "frame_corner": 1,
+      "content_offset": "0,0",
+      "border_dash": false,
+      "border_dash_enabled": {
+        "o": 0,
+        "p": 0,
+        "u": 0
+      },
+      "border_tixel_tl": "",
+      "border_tixel_tr": "",
+      "border_tixel_bl": "",
+      "border_tixel_br": "",
+      "border_tixel_ts": "",
+      "border_tixel_bs": "",
+      "border_tixel_ls": "",
+      "border_tixel_rs": "",
+      "name": "Body",
+      "frame_size": "48,14",
+      "model_text": "63EE399C-567D-4D00-8520-42F32C18494B",
+      "content_tixels": "B123254B-7DA1-4E15-A9E9-45392FB02DEA",
+      "border_tixels": "FADCF7F9-B825-4130-B8D7-7099E9F0E622",
+      "position_refs": [
+        "45A0259C-24C8-4D15-99A1-02666A04A101"
+      ],
+      "object_id": "37EBC2EC-5CCA-47B0-AAB4-6BD785B3F570"
+    },
+    {
+      "type_id": 11,
+      "object_id": "45A0259C-24C8-4D15-99A1-02666A04A101",
+      "dirset": 0,
+      "point": "0,2"
+    },
+    {
+      "type_id": 27,
+      "object_id": "6DAE4556-F33B-4DCB-A17B-C8A05525E122",
+      "enabled": true,
+      "sweep": 0,
+      "movement": 0,
+      "alignment": 0,
+      "position": 1,
+      "inside_border": true,
+      "color": 4294967296,
+      "inset_top": 0,
+      "inset_bottom": 0,
+      "inset_left": 1,
+      "inset_right": 1,
+      "text": "◀ ▶ ⟳  https://example.com"
+    },
+    {
+      "type_id": 18,
+      "object_id": "B059BF8F-6783-4131-83DD-2692DC8581F4",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 18,
+      "object_id": "CAF84D81-2B71-4F24-A632-1A2B59B4F909",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 20,
+      "frame_anchor_ref": "FBCEF014-1833-4D13-9F97-9B78A41EBD35",
+      "shape_type": 1,
+      "cthrough": false,
+      "name_edited": true,
+      "origin": "0,0",
+      "tag": 0,
+      "hidden": false,
+      "locked": false,
+      "surface_pos_enabled": true,
+      "attachable": true,
+      "content_blended": true,
+      "content_color": 4294967296,
+      "shadow_enabled": false,
+      "shadow_offset": "0,0",
+      "shadow_tixel": "",
+      "shadow_intensity": 4,
+      "shadow_color": 4294967296,
+      "subshape_refs": [],
+      "background_type": 2,
+      "background_enabled": true,
+      "background_tixel": "",
+      "rectangular_border_enabled": true,
+      "mps_bckg_color": 4294967296,
+      "mps_border_color": 4294967296,
+      "rectangular_border": 4,
+      "frame_offset": "0,0",
+      "frame_corner": 1,
+      "content_offset": "0,0",
+      "border_dash": false,
+      "border_dash_enabled": {
+        "o": 0,
+        "p": 0,
+        "u": 0
+      },
+      "border_tixel_tl": "",
+      "border_tixel_tr": "",
+      "border_tixel_bl": "",
+      "border_tixel_br": "",
+      "border_tixel_ts": "",
+      "border_tixel_bs": "",
+      "border_tixel_ls": "",
+      "border_tixel_rs": "",
+      "name": "Title Bar",
+      "frame_size": "48,3",
+      "model_text": "6DAE4556-F33B-4DCB-A17B-C8A05525E122",
+      "content_tixels": "B059BF8F-6783-4131-83DD-2692DC8581F4",
+      "border_tixels": "CAF84D81-2B71-4F24-A632-1A2B59B4F909",
+      "position_refs": [
+        "FBCEF014-1833-4D13-9F97-9B78A41EBD35"
+      ],
+      "object_id": "BC52662D-670F-4AB6-B40F-51AE264FECBC"
+    },
+    {
+      "type_id": 11,
+      "object_id": "FBCEF014-1833-4D13-9F97-9B78A41EBD35",
+      "dirset": 0,
+      "point": "0,0"
+    }
+  ]
+}

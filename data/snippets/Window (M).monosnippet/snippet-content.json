@@ -1,0 +1,226 @@
+{
+  "header": {
+    "v": 5
+  },
+  "object_list": [
+    {
+      "object_id": "A0C5C4C2-6987-4ED4-9C8C-7B4BEA31EABE",
+      "type_id": 13,
+      "shapes": [
+        "23B51B46-335B-4882-BE98-E9E1F6E99832"
+      ]
+    },
+    {
+      "type_id": 3,
+      "object_id": "23B51B46-335B-4882-BE98-E9E1F6E99832",
+      "shape_type": 8,
+      "cthrough": false,
+      "name_edited": true,
+      "origin": "0,0",
+      "tag": 0,
+      "hidden": false,
+      "locked": false,
+      "surface_pos_enabled": true,
+      "attachable": false,
+      "content_blended": true,
+      "content_color": 4294967296,
+      "shadow_enabled": false,
+      "shadow_offset": "0,0",
+      "shadow_tixel": "",
+      "shadow_intensity": 4,
+      "shadow_color": 4294967296,
+      "subshape_refs": [
+        "FBB58D70-EF29-47F9-B1F7-3C3C230F61DE",
+        "14E0F995-F255-432B-B7CE-EB07EB9DFFB9"
+      ],
+      "position_refs": [],
+      "subshape_selection": false,
+      "name": "Window",
+      "canvas_origin": true
+    },
+    {
+      "type_id": 27,
+      "object_id": "A42E85BD-2CA6-4565-A9CA-5628925BF542",
+      "enabled": true,
+      "sweep": 0,
+      "movement": 0,
+      "alignment": 1,
+      "position": 1,
+      "inside_border": true,
+      "color": 4294967296,
+      "inset_top": 0,
+      "inset_bottom": 0,
+      "inset_left": 0,
+      "inset_right": 0,
+      "text": ""
+    },
+    {
+      "type_id": 18,
+      "object_id": "BDE80108-DAC2-4C4E-945B-6A63D86ED52F",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 18,
+      "object_id": "E913AB72-A2AB-4DF9-A055-511CA5172159",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 20,
+      "frame_anchor_ref": "E56DA04C-911F-47C5-9F86-BD64B888B607",
+      "shape_type": 1,
+      "cthrough": false,
+      "name_edited": true,
+      "origin": "0,0",
+      "tag": 0,
+      "hidden": false,
+      "locked": false,
+      "surface_pos_enabled": true,
+      "attachable": true,
+      "content_blended": true,
+      "content_color": 4294967296,
+      "shadow_enabled": false,
+      "shadow_offset": "0,0",
+      "shadow_tixel": "",
+      "shadow_intensity": 4,
+      "shadow_color": 4294967296,
+      "subshape_refs": [],
+      "background_type": 2,
+      "background_enabled": true,
+      "background_tixel": "",
+      "rectangular_border_enabled": true,
+      "mps_bckg_color": 4294967296,
+      "mps_border_color": 4294967296,
+      "rectangular_border": 4,
+      "frame_offset": "0,0",
+      "frame_corner": 1,
+      "content_offset": "0,0",
+      "border_dash": false,
+      "border_dash_enabled": {
+        "o": 0,
+        "p": 0,
+        "u": 0
+      },
+      "border_tixel_tl": "",
+      "border_tixel_tr": "",
+      "border_tixel_bl": "",
+      "border_tixel_br": "",
+      "border_tixel_ts": "",
+      "border_tixel_bs": "",
+      "border_tixel_ls": "",
+      "border_tixel_rs": "",
+      "name": "Body",
+      "frame_size": "40,12",
+      "model_text": "A42E85BD-2CA6-4565-A9CA-5628925BF542",
+      "content_tixels": "BDE80108-DAC2-4C4E-945B-6A63D86ED52F",
+      "border_tixels": "E913AB72-A2AB-4DF9-A055-511CA5172159",
+      "position_refs": [
+        "E56DA04C-911F-47C5-9F86-BD64B888B607"
+      ],
+      "object_id": "14E0F995-F255-432B-B7CE-EB07EB9DFFB9"
+    },
+    {
+      "type_id": 11,
+      "object_id": "E56DA04C-911F-47C5-9F86-BD64B888B607",
+      "dirset": 0,
+      "point": "0,2"
+    },
+    {
+      "type_id": 27,
+      "object_id": "ED6B6173-9F8E-486E-8878-31F9F1B52C91",
+      "enabled": true,
+      "sweep": 0,
+      "movement": 0,
+      "alignment": 0,
+      "position": 1,
+      "inside_border": true,
+      "color": 4294967296,
+      "inset_top": 0,
+      "inset_bottom": 0,
+      "inset_left": 1,
+      "inset_right": 1,
+      "text": "Window"
+    },
+    {
+      "type_id": 18,
+      "object_id": "56F69A94-F4DD-408B-84E3-F37B3F7BBE72",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 18,
+      "object_id": "E37853C3-5570-43B6-A565-40CE19527D92",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 20,
+      "frame_anchor_ref": "466CDA1E-1BA9-4D41-A4A3-9AD8B6523B4C",
+      "shape_type": 1,
+      "cthrough": false,
+      "name_edited": true,
+      "origin": "0,0",
+      "tag": 0,
+      "hidden": false,
+      "locked": false,
+      "surface_pos_enabled": true,
+      "attachable": true,
+      "content_blended": true,
+      "content_color": 4294967296,
+      "shadow_enabled": false,
+      "shadow_offset": "0,0",
+      "shadow_tixel": "",
+      "shadow_intensity": 4,
+      "shadow_color": 4294967296,
+      "subshape_refs": [],
+      "background_type": 2,
+      "background_enabled": true,
+      "background_tixel": "",
+      "rectangular_border_enabled": true,
+      "mps_bckg_color": 4294967296,
+      "mps_border_color": 4294967296,
+      "rectangular_border": 4,
+      "frame_offset": "0,0",
+      "frame_corner": 1,
+      "content_offset": "0,0",
+      "border_dash": false,
+      "border_dash_enabled": {
+        "o": 0,
+        "p": 0,
+        "u": 0
+      },
+      "border_tixel_tl": "",
+      "border_tixel_tr": "",
+      "border_tixel_bl": "",
+      "border_tixel_br": "",
+      "border_tixel_ts": "",
+      "border_tixel_bs": "",
+      "border_tixel_ls": "",
+      "border_tixel_rs": "",
+      "name": "Title Bar",
+      "frame_size": "40,3",
+      "model_text": "ED6B6173-9F8E-486E-8878-31F9F1B52C91",
+      "content_tixels": "56F69A94-F4DD-408B-84E3-F37B3F7BBE72",
+      "border_tixels": "E37853C3-5570-43B6-A565-40CE19527D92",
+      "position_refs": [
+        "466CDA1E-1BA9-4D41-A4A3-9AD8B6523B4C"
+      ],
+      "object_id": "FBB58D70-EF29-47F9-B1F7-3C3C230F61DE"
+    },
+    {
+      "type_id": 11,
+      "object_id": "466CDA1E-1BA9-4D41-A4A3-9AD8B6523B4C",
+      "dirset": 0,
+      "point": "0,0"
+    }
+  ]
+}

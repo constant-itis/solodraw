@@ -1,0 +1,107 @@
+{
+  "header": {
+    "v": 5
+  },
+  "object_list": [
+    {
+      "object_id": "3048C76D-3F80-4C1F-BBD1-69AEEA72A872",
+      "type_id": 13,
+      "shapes": [
+        "45708E84-D656-4B28-AF97-85A52303D1F0"
+      ]
+    },
+    {
+      "type_id": 27,
+      "object_id": "FD05F39F-C4D0-4077-9336-CCC7A4F073AD",
+      "enabled": true,
+      "sweep": 0,
+      "movement": 0,
+      "alignment": 0,
+      "position": 0,
+      "inside_border": true,
+      "color": 4294967296,
+      "inset_top": 0,
+      "inset_bottom": 0,
+      "inset_left": 1,
+      "inset_right": 1,
+      "text": "Note"
+    },
+    {
+      "type_id": 18,
+      "object_id": "9E7D7893-9B92-4F11-9DC2-D3BA6970CB48",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 18,
+      "object_id": "21173833-D01D-4C15-B4FC-D1F724482ECD",
+      "tixels": {
+        "text_content": [],
+        "text_points": []
+      }
+    },
+    {
+      "type_id": 20,
+      "frame_anchor_ref": "DE8A09BB-79DB-4B70-9A91-CB569B2D02B8",
+      "shape_type": 1,
+      "cthrough": false,
+      "name_edited": true,
+      "origin": "0,0",
+      "tag": 0,
+      "hidden": false,
+      "locked": false,
+      "surface_pos_enabled": true,
+      "attachable": true,
+      "content_blended": true,
+      "content_color": 4294967296,
+      "shadow_enabled": true,
+      "shadow_offset": "1,1",
+      "shadow_tixel": "",
+      "shadow_intensity": 4,
+      "shadow_color": 4294967296,
+      "subshape_refs": [],
+      "background_type": 2,
+      "background_enabled": true,
+      "background_tixel": "",
+      "rectangular_border_enabled": true,
+      "mps_bckg_color": 4294967296,
+      "mps_border_color": 4294967296,
+      "rectangular_border": 4,
+      "frame_offset": "0,0",
+      "frame_corner": 1,
+      "content_offset": "0,0",
+      "border_dash": false,
+      "border_dash_enabled": {
+        "o": 0,
+        "p": 0,
+        "u": 0
+      },
+      "border_tixel_tl": "",
+      "border_tixel_tr": "",
+      "border_tixel_bl": "",
+      "border_tixel_br": "",
+      "border_tixel_ts": "",
+      "border_tixel_bs": "",
+      "border_tixel_ls": "",
+      "border_tixel_rs": "",
+      "name": "Note",
+      "frame_size": "22,6",
+      "model_text": "FD05F39F-C4D0-4077-9336-CCC7A4F073AD",
+      "content_tixels": "9E7D7893-9B92-4F11-9DC2-D3BA6970CB48",
+      "border_tixels": "21173833-D01D-4C15-B4FC-D1F724482ECD",
+      "position_refs": [
+        "DE8A09BB-79DB-4B70-9A91-CB569B2D02B8"
+      ],
+      "object_id": "45708E84-D656-4B28-AF97-85A52303D1F0",
+      "canvas_origin": true
+    },
+    {
+      "type_id": 11,
+      "object_id": "DE8A09BB-79DB-4B70-9A91-CB569B2D02B8",
+      "dirset": 0,
+      "point": "0,0"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Font metrics (macOS 12.7.6, AppKit/CoreText, %.17g)
+# Monodraw default canvas font, from prefs: Menlo-Regular 11 (identical to the Menlo 11 case below)
+
+Menlo-Regular size 11
+  advance(M)          6.62255859375
+  maximumAdvancement  6.62255859375
+  ascender            10.21044921875
+  descender           -2.59423828125
+  leading             0
+  ascent+descent+lead 12.8046875
+  capHeight           8.01904296875
+  xHeight             6.015625
+  CTFont ascent/descent/leading 10.21044921875 2.59423828125 0
+  unitsPerEm          2048
+  NSLayoutManager defaultLineHeight 13
+Menlo-Regular size 14
+  advance(M)          8.4287109375
+  maximumAdvancement  8.4287109375
+  ascender            12.9951171875
+  descender           -3.3017578125
+  leading             0
+  ascent+descent+lead 16.296875
+  capHeight           10.2060546875
+  xHeight             7.65625
+  CTFont ascent/descent/leading 12.9951171875 3.3017578125 0
+  unitsPerEm          2048
+  NSLayoutManager defaultLineHeight 16
+
+# defaults read com.helftone.monodraw | grep -i font
+    "NSWindow Frame NSFontPanel" = "929 115 445 232 0 0 1440 875 ";
+    "monodraw.prefs.canvas.text.font-name" = "Menlo-Regular";
+    "monodraw.prefs.canvas.text.font-size" = 11;
+
+# Cross-check with the measured export cells (04 NOTES.md: Menlo 11 -> 7x13, Menlo 14 -> 9x17)
+# ceil(advance): 11pt ceil(6.6226)=7, 14pt ceil(8.4287)=9  -> matches
+# ceil(ascender-descender+leading): 11pt ceil(12.805)=13, 14pt ceil(16.297)=17 -> matches
+# NSLayoutManager.defaultLineHeight gives 13 and 16 -> does NOT match at 14pt, so the cell height is not defaultLineHeight
+# (inference from black-box numbers only)

@@ -1,0 +1,13 @@
+[package]
+name = "solodraw-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+doctest = false
+
+[dependencies]
+serde_json = { version = "1", features = ["preserve_order"] }
+flate2 = "1"
+uuid = { version = "1", features = ["v4"] }

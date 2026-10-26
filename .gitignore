@@ -1,0 +1,8 @@
+/target
+__pycache__/
+.cargo/config.toml
+# Private fixtures (see crates/core/tests/common/mod.rs)
+fixtures/private/
+# Local reverse-engineering workspace; never committed
+re/
+work/

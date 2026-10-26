@@ -1,0 +1,9 @@
+{
+  "author": "solodraw",
+  "email": "",
+  "version": 0,
+  "description": "A dialog with a message and two buttons.",
+  "identifier": "io.github.constant_itis.solodraw.snippet.dialog",
+  "tags": "dialog alert modal window",
+  "url": ""
+}
